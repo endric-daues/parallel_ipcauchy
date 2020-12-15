@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t005
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t005
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 1
+Interval Length: 6.283185
+Minimum Radius: 0.989499
+Total Number of nodes: 36461
+Process 0 is starting with 36562 nodes... start angle 0.000000 and end angle 6.283185
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 0 with PID 6453 on node t005 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+slurmstepd: error: Detected 4 oom-kill event(s) in step 4822161.batch cgroup.

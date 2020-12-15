@@ -1,0 +1,94 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t098
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t098
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 32
+Interval Length: 0.196350
+Minimum Radius: 0.989499
+Total Number of nodes: 36461
+Process 12 is starting with 1313 nodes... start angle 2.356194 and end angle 2.552544
+Process 13 is starting with 1313 nodes... start angle 2.552544 and end angle 2.748894
+Process 14 is starting with 1313 nodes... start angle 2.748894 and end angle 2.945243
+Process 15 is starting with 1313 nodes... start angle 2.945243 and end angle 3.141593
+Process 16 is starting with 1313 nodes... start angle 3.141593 and end angle 3.337942
+Process 17 is starting with 1313 nodes... start angle 3.337942 and end angle 3.534292
+Process 18 is starting with 1313 nodes... start angle 3.534292 and end angle 3.730641
+Process 19 is starting with 1313 nodes... start angle 3.730641 and end angle 3.926991
+Process 20 is starting with 1313 nodes... start angle 3.926991 and end angle 4.123340
+Process 21 is starting with 1313 nodes... start angle 4.123340 and end angle 4.319690
+Process 22 is starting with 1313 nodes... start angle 4.319690 and end angle 4.516039
+Process 23 is starting with 1313 nodes... start angle 4.516039 and end angle 4.712389
+Process 24 is starting with 1313 nodes... start angle 4.712389 and end angle 4.908739
+Process 25 is starting with 1313 nodes... start angle 4.908739 and end angle 5.105088
+Process 26 is starting with 1313 nodes... start angle 5.105088 and end angle 5.301438
+Process 27 is starting with 1313 nodes... start angle 5.301438 and end angle 5.497787
+Process 28 is starting with 1313 nodes... start angle 5.497787 and end angle 5.694137
+Process 29 is starting with 1313 nodes... start angle 5.694137 and end angle 5.890486
+Process 30 is starting with 1313 nodes... start angle 5.890486 and end angle 6.086836
+Process 31 is starting with 1313 nodes... start angle 6.086836 and end angle 6.283185
+Process 1 is starting with 1313 nodes... start angle 0.196350 and end angle 0.392699
+Process 2 is starting with 1313 nodes... start angle 0.392699 and end angle 0.589049
+Process 3 is starting with 1313 nodes... start angle 0.589049 and end angle 0.785398
+Process 4 is starting with 1313 nodes... start angle 0.785398 and end angle 0.981748
+Process 5 is starting with 1313 nodes... start angle 0.981748 and end angle 1.178097
+Process 6 is starting with 1313 nodes... start angle 1.178097 and end angle 1.374447
+Process 7 is starting with 1313 nodes... start angle 1.374447 and end angle 1.570796
+Process 8 is starting with 1313 nodes... start angle 1.570796 and end angle 1.767146
+Process 9 is starting with 1313 nodes... start angle 1.767146 and end angle 1.963495
+Process 10 is starting with 1313 nodes... start angle 1.963495 and end angle 2.159845
+Process 11 is starting with 1313 nodes... start angle 2.159845 and end angle 2.356194
+Process 0 is starting with 1313 nodes... start angle 0.000000 and end angle 0.196350
+Process: 15, Computation Time: 0.410000, result: -0.399337
+Process: 1, Computation Time: 0.390000, result: 8.540640
+Process: 2, Computation Time: 0.360000, result: -0.296455
+Process: 3, Computation Time: 0.430000, result: 11.059507
+Process: 4, Computation Time: 0.430000, result: -1.468765
+Process: 5, Computation Time: 0.440000, result: 1.760083
+Process: 6, Computation Time: 0.430000, result: 12.597995
+Process: 7, Computation Time: 0.370000, result: 2.330769
+Process: 8, Computation Time: 0.500000, result: 15.932056
+Process: 9, Computation Time: 0.390000, result: -0.259412
+Process: 10, Computation Time: 0.400000, result: 29.688806
+Process: 11, Computation Time: 0.410000, result: 0.365979
+Process: 12, Computation Time: 0.460000, result: 0.714488
+Process: 13, Computation Time: 0.450000, result: 0.482264
+Process: 14, Computation Time: 0.410000, result: 28.269116
+Process: 0, Computation Time: 0.360000, result: 272141.027952
+Total Integration Result: 544434.689214
+Total Integration Error: 0.004794
+Maximum Computation Time: 0.570000
+
+Process: 16, Computation Time: 0.540000, result: -13.035744
+Process: 17, Computation Time: 0.450000, result: 12.427128
+Process: 18, Computation Time: 0.470000, result: 0.871681
+Process: 19, Computation Time: 0.460000, result: -4.718887
+Process: 20, Computation Time: 0.520000, result: 1.636828
+Process: 21, Computation Time: 0.460000, result: 0.942674
+Process: 22, Computation Time: 0.460000, result: 2.737976
+Process: 23, Computation Time: 0.460000, result: 2.902987
+Process: 24, Computation Time: 0.570000, result: 16.017010
+Process: 25, Computation Time: 0.450000, result: 0.520801
+Process: 26, Computation Time: 0.480000, result: 1.087680
+Process: 27, Computation Time: 0.460000, result: -5.205878
+Process: 28, Computation Time: 0.460000, result: 6.583858
+Process: 29, Computation Time: 0.410000, result: -3.228350
+Process: 30, Computation Time: 0.450000, result: 14.984324
+Process: 31, Computation Time: 0.440000, result: 272149.819442
+Wall Time: 0.640000
+
+[t098:93008] 31 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t098:93008] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t098:93008] 31 more processes have sent help message help-mpi-btl-openib.txt / error in device init

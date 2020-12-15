@@ -1,0 +1,70 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t127
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+[t127:440862] [[18950,0],0] ORTE_ERROR_LOG: Data unpack had inadequate space in file util/show_help.c at line 513
+[t127:440862] [[18950,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file util/show_help.c at line 513
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t127
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 19
+Interval Length: 0.330694
+Minimum Radius: 0.989499
+Total Number of nodes: 36461
+Process 0 is starting with 2020 nodes... start angle 0.000000 and end angle 0.330694
+Process 1 is starting with 2020 nodes... start angle 0.330694 and end angle 0.661388
+Process 2 is starting with 2020 nodes... start angle 0.661388 and end angle 0.992082
+Process 3 is starting with 2020 nodes... start angle 0.992082 and end angle 1.322776
+Process 4 is starting with 2020 nodes... start angle 1.322776 and end angle 1.653470
+Process 5 is starting with 2020 nodes... start angle 1.653470 and end angle 1.984164
+Process 6 is starting with 2020 nodes... start angle 1.984164 and end angle 2.314858
+Process 7 is starting with 2020 nodes... start angle 2.314858 and end angle 2.645552
+Process 8 is starting with 2020 nodes... start angle 2.645552 and end angle 2.976246
+Process 9 is starting with 2020 nodes... start angle 2.976246 and end angle 3.306940
+Process 10 is starting with 2020 nodes... start angle 3.306940 and end angle 3.637634
+Process 11 is starting with 2020 nodes... start angle 3.637634 and end angle 3.968328
+Process 12 is starting with 2020 nodes... start angle 3.968328 and end angle 4.299022
+Process 13 is starting with 2020 nodes... start angle 4.299022 and end angle 4.629715
+Process 14 is starting with 2020 nodes... start angle 4.629715 and end angle 4.960409
+Process 15 is starting with 2020 nodes... start angle 4.960409 and end angle 5.291103
+Process 16 is starting with 2020 nodes... start angle 5.291103 and end angle 5.621797
+Process 17 is starting with 2020 nodes... start angle 5.621797 and end angle 5.952491
+Process 18 is starting with 2020 nodes... start angle 5.952491 and end angle 6.283185
+Process: 0, Computation Time: 0.520000, result: 272184.748256
+Total Integration Result: 544450.586794
+Total Integration Error: 0.000083
+Maximum Computation Time: 0.660000
+
+Process: 1, Computation Time: 0.600000, result: -44.796569
+Process: 2, Computation Time: 0.590000, result: -5.001773
+Process: 3, Computation Time: 0.620000, result: 12.800118
+Process: 4, Computation Time: 0.580000, result: 2.249677
+Process: 5, Computation Time: 0.600000, result: 2.032126
+Process: 6, Computation Time: 0.600000, result: 0.868729
+Process: 7, Computation Time: 0.610000, result: -23.190710
+Process: 8, Computation Time: 0.630000, result: 14.276651
+Process: 9, Computation Time: 0.660000, result: -2.990997
+Process: 10, Computation Time: 0.630000, result: 17.699101
+Process: 11, Computation Time: 0.640000, result: -2.440648
+Process: 12, Computation Time: 0.630000, result: 39.723930
+Process: 13, Computation Time: 0.650000, result: 3.912298
+Process: 14, Computation Time: 0.610000, result: 64.971774
+Process: 15, Computation Time: 0.640000, result: -2.598487
+Process: 16, Computation Time: 0.620000, result: 1.176867
+Process: 17, Computation Time: 0.640000, result: 4.834316
+Process: 18, Computation Time: 0.600000, result: 272182.312136
+Wall Time: 0.710000
+
+[t127:440862] 16 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t127:440862] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t127:440862] 18 more processes have sent help message help-mpi-btl-openib.txt / error in device init
