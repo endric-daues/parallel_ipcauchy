@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t006
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t006
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 9
+Interval Length: 0.698132
+Minimum Radius: 0.989499
+Total Number of nodes: 36461
+Process 0 is starting with 4242 nodes... start angle 0.000000 and end angle 0.698132
+Process 1 is starting with 4242 nodes... start angle 0.698132 and end angle 1.396263
+Process 2 is starting with 4242 nodes... start angle 1.396263 and end angle 2.094395
+Process 3 is starting with 4242 nodes... start angle 2.094395 and end angle 2.792527
+Process 4 is starting with 4242 nodes... start angle 2.792527 and end angle 3.490659
+Process 5 is starting with 4242 nodes... start angle 3.490659 and end angle 4.188790
+Process 6 is starting with 4242 nodes... start angle 4.188790 and end angle 4.886922
+Process 7 is starting with 4242 nodes... start angle 4.886922 and end angle 5.585054
+Process 8 is starting with 4242 nodes... start angle 5.585054 and end angle 6.283185
+Process: 0, Computation Time: 1.110000, result: 272074.718870
+Total Integration Result: 544343.846036
+Total Integration Error: 0.000044
+Maximum Computation Time: 1.270000
+
+Process: 1, Computation Time: 1.170000, result: 37.654174
+Process: 2, Computation Time: 1.230000, result: 7.711510
+Process: 3, Computation Time: 1.230000, result: 76.530943
+Process: 4, Computation Time: 1.260000, result: -197.792945
+Process: 5, Computation Time: 1.270000, result: 59.561934
+Process: 6, Computation Time: 1.260000, result: -52.516095
+Process: 7, Computation Time: 1.240000, result: 163.935769
+Process: 8, Computation Time: 1.230000, result: 272174.041876
+Wall Time: 1.310000
+
+[t006:438436] 8 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t006:438436] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t006:438436] 8 more processes have sent help message help-mpi-btl-openib.txt / error in device init

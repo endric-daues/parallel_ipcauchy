@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t093
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t093
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[t093:161169] 1 more process has sent help message help-mpi-btl-openib.txt / ib port not selected
+[t093:161169] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t093:161169] 1 more process has sent help message help-mpi-btl-openib.txt / error in device init
+Number of processes (intervals) = 2
+Interval Length: 3.141593
+Minimum Radius: 0.989499
+Total Number of nodes: 36461
+Process 0 is starting with 18382 nodes... start angle 0.000000 and end angle 3.141593
+Process 1 is starting with 18382 nodes... start angle 3.141593 and end angle 6.283185
+Process: 0, Computation Time: 7.130000, result: 272211.480060
+Total Integration Result: 544394.051571
+Total Integration Error: 0.000077
+Maximum Computation Time: 7.130000
+
+Process: 1, Computation Time: 6.450000, result: 272182.571511
+Wall Time: 7.180000
+

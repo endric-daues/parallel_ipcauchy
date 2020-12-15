@@ -1,0 +1,58 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t006
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t006
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 14
+Interval Length: 0.448799
+Minimum Radius: 0.989499
+Total Number of nodes: 36461
+Process 0 is starting with 2727 nodes... start angle 0.000000 and end angle 0.448799
+Process 1 is starting with 2727 nodes... start angle 0.448799 and end angle 0.897598
+Process 2 is starting with 2727 nodes... start angle 0.897598 and end angle 1.346397
+Process 3 is starting with 2727 nodes... start angle 1.346397 and end angle 1.795196
+Process 4 is starting with 2727 nodes... start angle 1.795196 and end angle 2.243995
+Process 5 is starting with 2727 nodes... start angle 2.243995 and end angle 2.692794
+Process 6 is starting with 2727 nodes... start angle 2.692794 and end angle 3.141593
+Process 7 is starting with 2727 nodes... start angle 3.141593 and end angle 3.590392
+Process 8 is starting with 2727 nodes... start angle 3.590392 and end angle 4.039191
+Process 9 is starting with 2727 nodes... start angle 4.039191 and end angle 4.487990
+Process 10 is starting with 2727 nodes... start angle 4.487990 and end angle 4.936788
+Process 11 is starting with 2727 nodes... start angle 4.936788 and end angle 5.385587
+Process 12 is starting with 2727 nodes... start angle 5.385587 and end angle 5.834386
+Process 13 is starting with 2727 nodes... start angle 5.834386 and end angle 6.283185
+Process: 0, Computation Time: 0.690000, result: 272191.986987
+Total Integration Result: 544385.522686
+Total Integration Error: 0.000066
+Maximum Computation Time: 0.980000
+
+Process: 1, Computation Time: 0.750000, result: -50.419299
+Process: 2, Computation Time: 0.780000, result: 60.532244
+Process: 3, Computation Time: 0.790000, result: 3.832833
+Process: 4, Computation Time: 0.800000, result: 4.297249
+Process: 5, Computation Time: 0.870000, result: 4.995269
+Process: 6, Computation Time: 0.830000, result: 14.915302
+Process: 7, Computation Time: 0.980000, result: 13.301141
+Process: 8, Computation Time: 0.860000, result: 1.158896
+Process: 9, Computation Time: 0.840000, result: -1.202511
+Process: 10, Computation Time: 0.860000, result: -48.661457
+Process: 11, Computation Time: 0.850000, result: 10.057736
+Process: 12, Computation Time: 0.840000, result: 0.973354
+Process: 13, Computation Time: 0.850000, result: 272179.754941
+Wall Time: 1.020000
+
+[t006:437748] 13 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t006:437748] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t006:437748] 13 more processes have sent help message help-mpi-btl-openib.txt / error in device init

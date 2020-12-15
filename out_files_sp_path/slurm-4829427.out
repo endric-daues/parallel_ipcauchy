@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t006
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t006
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[t006:437237] 9 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t006:437237] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t006:437237] 9 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+Number of processes (intervals) = 10
+Interval Length: 0.628319
+Minimum Radius: 0.989499
+Total Number of nodes: 36461
+Process 1 is starting with 3838 nodes... start angle 0.628319 and end angle 1.256637
+Process 2 is starting with 3838 nodes... start angle 1.256637 and end angle 1.884956
+Process 3 is starting with 3838 nodes... start angle 1.884956 and end angle 2.513274
+Process 4 is starting with 3838 nodes... start angle 2.513274 and end angle 3.141593
+Process 5 is starting with 3838 nodes... start angle 3.141593 and end angle 3.769911
+Process 6 is starting with 3838 nodes... start angle 3.769911 and end angle 4.398230
+Process 7 is starting with 3838 nodes... start angle 4.398230 and end angle 5.026548
+Process 8 is starting with 3838 nodes... start angle 5.026548 and end angle 5.654867
+Process 9 is starting with 3838 nodes... start angle 5.654867 and end angle 6.283185
+Process 0 is starting with 3838 nodes... start angle 0.000000 and end angle 0.628319
+Process: 9, Computation Time: 1.140000, result: 272172.690872
+Process: 1, Computation Time: 1.100000, result: -7.478178
+Process: 2, Computation Time: 1.100000, result: 0.986215
+Process: 3, Computation Time: 1.150000, result: 9.466996
+Process: 4, Computation Time: 1.170000, result: 15.427789
+Process: 5, Computation Time: 1.230000, result: 8.419495
+Process: 6, Computation Time: 1.180000, result: 11.615629
+Process: 7, Computation Time: 1.120000, result: 9.896694
+Process: 8, Computation Time: 1.150000, result: 44.712060
+Process: 0, Computation Time: 1.050000, result: 272150.197387
+Total Integration Result: 544415.934959
+Total Integration Error: 0.000040
+Maximum Computation Time: 1.230000
+
+Wall Time: 1.300000
+
