@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t005
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t005
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 1
+Interval Length: 6.283185
+Optimal Radius: 0.989499
+Process 0 is starting...
+Process: 0, Computation Time: 0.520000
+Process 0 used 514 intervals
+
+Total Integration Result: 544429.000000
+Total Integration Error: 0.000008
+Maximum Computation Time: 0.520000
+
+Wall Time: 0.560000
+
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t005
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t005
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 1
+Interval Length: 6.283185
+Optimal Radius: 0.989499
+Process 0 is starting...
+Process: 0, Computation Time: 0.450000
+Process 0 used 514 intervals
+
+Total Integration Result: 544429.000000
+Total Integration Error: 0.000008
+Maximum Computation Time: 0.450000
+
+Wall Time: 0.490000
+

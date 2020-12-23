@@ -1,0 +1,461 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t038
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t038
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 108
+Interval Length: 0.058178
+Optimal Radius: 0.989499
+Process 90 is starting...
+Process 6 is starting...
+Process 7 is starting...
+Process 8 is starting...
+Process 9 is starting...
+Process 10 is starting...
+Process 11 is starting...
+Process 12 is starting...
+Process 13 is starting...
+Process 14 is starting...
+Process 15 is starting...
+Process 16 is starting...
+Process 17 is starting...
+Process 0 is starting...
+Process 1 is starting...
+Process 2 is starting...
+Process 3 is starting...
+Process 4 is starting...
+Process 5 is starting...
+Process 91 is starting...
+Process 36 is starting...
+Process 18 is starting...
+Process 54 is starting...
+Process 72 is starting...
+Process 92 is starting...
+Process 37 is starting...
+Process 19 is starting...
+Process 55 is starting...
+Process 73 is starting...
+Process 93 is starting...
+Process 38 is starting...
+Process 20 is starting...
+Process 56 is starting...
+Process 74 is starting...
+Process 94 is starting...
+Process 39 is starting...
+Process 21 is starting...
+Process 57 is starting...
+Process 75 is starting...
+Process 95 is starting...
+Process 40 is starting...
+Process 22 is starting...
+Process 58 is starting...
+Process 76 is starting...
+Process 96 is starting...
+Process 41 is starting...
+Process 23 is starting...
+Process 59 is starting...
+Process 77 is starting...
+Process 97 is starting...
+Process 42 is starting...
+Process 24 is starting...
+Process 60 is starting...
+Process 78 is starting...
+Process 98 is starting...
+Process 43 is starting...
+Process 25 is starting...
+Process 61 is starting...
+Process 79 is starting...
+Process 99 is starting...
+Process 44 is starting...
+Process 26 is starting...
+Process 62 is starting...
+Process 80 is starting...
+Process 100 is starting...
+Process 45 is starting...
+Process 27 is starting...
+Process 63 is starting...
+Process 81 is starting...
+Process 101 is starting...
+Process 46 is starting...
+Process 28 is starting...
+Process 64 is starting...
+Process 82 is starting...
+Process 102 is starting...
+Process 47 is starting...
+Process 29 is starting...
+Process 65 is starting...
+Process 83 is starting...
+Process 103 is starting...
+Process 48 is starting...
+Process 30 is starting...
+Process 66 is starting...
+Process 84 is starting...
+Process 104 is starting...
+Process 49 is starting...
+Process 31 is starting...
+Process 67 is starting...
+Process 85 is starting...
+Process 105 is starting...
+Process 50 is starting...
+Process 32 is starting...
+Process 68 is starting...
+Process 86 is starting...
+Process 106 is starting...
+Process 51 is starting...
+Process 33 is starting...
+Process 69 is starting...
+Process 87 is starting...
+Process 107 is starting...
+Process 52 is starting...
+Process 34 is starting...
+Process 70 is starting...
+Process 88 is starting...
+Process 53 is starting...
+Process 35 is starting...
+Process 71 is starting...
+Process 89 is starting...
+Process: 0, Computation Time: 0.000000
+Process 0 used 5 intervals
+
+Total Integration Result: 544429.000000
+Total Integration Error: 0.000048
+Maximum Computation Time: 0.020000
+
+Process: 1, Computation Time: 0.010000
+Process 1 used 8 intervals
+
+Process: 2, Computation Time: 0.020000
+Process 2 used 8 intervals
+
+Process: 3, Computation Time: 0.010000
+Process 3 used 8 intervals
+
+Process: 4, Computation Time: 0.020000
+Process 4 used 7 intervals
+
+Process: 17, Computation Time: 0.000000
+Process 17 used 8 intervals
+
+Process: 6, Computation Time: 0.000000
+Process 6 used 8 intervals
+
+Process: 7, Computation Time: 0.020000
+Process 7 used 8 intervals
+
+Process: 8, Computation Time: 0.000000
+Process 8 used 7 intervals
+
+Process: 9, Computation Time: 0.010000
+Process 9 used 8 intervals
+
+Process: 10, Computation Time: 0.020000
+Process 10 used 8 intervals
+
+Process: 11, Computation Time: 0.010000
+Process 11 used 8 intervals
+
+Process: 12, Computation Time: 0.000000
+Process 12 used 8 intervals
+
+Process: 13, Computation Time: 0.010000
+Process 13 used 8 intervals
+
+Process: 14, Computation Time: 0.010000
+Process 14 used 7 intervals
+
+Process: 15, Computation Time: 0.010000
+Process 15 used 6 intervals
+
+Process: 16, Computation Time: 0.010000
+Process 16 used 8 intervals
+
+Process: 5, Computation Time: 0.010000
+Process 5 used 8 intervals
+
+Process: 36, Computation Time: 0.010000
+Process 36 used 8 intervals
+
+Process: 37, Computation Time: 0.010000
+Process 37 used 8 intervals
+
+Process: 72, Computation Time: 0.020000
+Process 72 used 7 intervals
+
+Process: 90, Computation Time: 0.020000
+Process 90 used 8 intervals
+
+Process: 54, Computation Time: 0.020000
+Process 54 used 8 intervals
+
+Process: 38, Computation Time: 0.020000
+Process 38 used 8 intervals
+
+Process: 73, Computation Time: 0.010000
+Process 73 used 8 intervals
+
+Process: 91, Computation Time: 0.020000
+Process 91 used 8 intervals
+
+Process: 39, Computation Time: 0.010000
+Process 39 used 8 intervals
+
+Process: 18, Computation Time: 0.010000
+Process 18 used 8 intervals
+
+Process: 55, Computation Time: 0.020000
+Process 55 used 8 intervals
+
+Process: 92, Computation Time: 0.010000
+Process 92 used 6 intervals
+
+Process: 40, Computation Time: 0.000000
+Process 40 used 8 intervals
+
+Process: 19, Computation Time: 0.010000
+Process 19 used 8 intervals
+
+Process: 56, Computation Time: 0.020000
+Process 56 used 7 intervals
+
+Process: 74, Computation Time: 0.020000
+Process 74 used 8 intervals
+
+Process: 93, Computation Time: 0.010000
+Process 93 used 7 intervals
+
+Process: 41, Computation Time: 0.020000
+Process 41 used 8 intervals
+
+Process: 20, Computation Time: 0.010000
+Process 20 used 7 intervals
+
+Process: 57, Computation Time: 0.020000
+Process 57 used 8 intervals
+
+Process: 75, Computation Time: 0.020000
+Process 75 used 8 intervals
+
+Process: 94, Computation Time: 0.000000
+Process 94 used 8 intervals
+
+Process: 42, Computation Time: 0.010000
+Process 42 used 8 intervals
+
+Process: 21, Computation Time: 0.010000
+Process 21 used 7 intervals
+
+Process: 58, Computation Time: 0.020000
+Process 58 used 8 intervals
+
+Process: 76, Computation Time: 0.010000
+Process 76 used 8 intervals
+
+Process: 95, Computation Time: 0.000000
+Process 95 used 8 intervals
+
+Process: 43, Computation Time: 0.000000
+Process 43 used 8 intervals
+
+Process: 22, Computation Time: 0.000000
+Process 22 used 8 intervals
+
+Process: 59, Computation Time: 0.010000
+Process 59 used 7 intervals
+
+Process: 77, Computation Time: 0.000000
+Process 77 used 7 intervals
+
+Process: 96, Computation Time: 0.010000
+Process 96 used 8 intervals
+
+Process: 44, Computation Time: 0.010000
+Process 44 used 8 intervals
+
+Process: 23, Computation Time: 0.010000
+Process 23 used 8 intervals
+
+Process: 60, Computation Time: 0.020000
+Process 60 used 8 intervals
+
+Process: 78, Computation Time: 0.020000
+Process 78 used 6 intervals
+
+Process: 97, Computation Time: 0.010000
+Process 97 used 8 intervals
+
+Process: 45, Computation Time: 0.010000
+Process 45 used 7 intervals
+
+Process: 24, Computation Time: 0.000000
+Process 24 used 7 intervals
+
+Process: 61, Computation Time: 0.010000
+Process 61 used 8 intervals
+
+Process: 79, Computation Time: 0.020000
+Process 79 used 8 intervals
+
+Process: 98, Computation Time: 0.010000
+Process 98 used 8 intervals
+
+Process: 46, Computation Time: 0.020000
+Process 46 used 8 intervals
+
+Process: 25, Computation Time: 0.010000
+Process 25 used 8 intervals
+
+Process: 62, Computation Time: 0.010000
+Process 62 used 7 intervals
+
+Process: 80, Computation Time: 0.010000
+Process 80 used 8 intervals
+
+Process: 99, Computation Time: 0.000000
+Process 99 used 7 intervals
+
+Process: 47, Computation Time: 0.010000
+Process 47 used 8 intervals
+
+Process: 26, Computation Time: 0.020000
+Process 26 used 8 intervals
+
+Process: 63, Computation Time: 0.020000
+Process 63 used 8 intervals
+
+Process: 81, Computation Time: 0.020000
+Process 81 used 8 intervals
+
+Process: 100, Computation Time: 0.010000
+Process 100 used 8 intervals
+
+Process: 48, Computation Time: 0.010000
+Process 48 used 7 intervals
+
+Process: 27, Computation Time: 0.020000
+Process 27 used 8 intervals
+
+Process: 64, Computation Time: 0.010000
+Process 64 used 8 intervals
+
+Process: 82, Computation Time: 0.020000
+Process 82 used 8 intervals
+
+Process: 101, Computation Time: 0.010000
+Process 101 used 8 intervals
+
+Process: 49, Computation Time: 0.000000
+Process 49 used 8 intervals
+
+Process: 28, Computation Time: 0.010000
+Process 28 used 8 intervals
+
+Process: 65, Computation Time: 0.010000
+Process 65 used 8 intervals
+
+Process: 83, Computation Time: 0.010000
+Process 83 used 7 intervals
+
+Process: 102, Computation Time: 0.000000
+Process 102 used 8 intervals
+
+Process: 50, Computation Time: 0.000000
+Process 50 used 8 intervals
+
+Process: 29, Computation Time: 0.000000
+Process 29 used 6 intervals
+
+Process: 66, Computation Time: 0.010000
+Process 66 used 8 intervals
+
+Process: 84, Computation Time: 0.010000
+Process 84 used 8 intervals
+
+Process: 103, Computation Time: 0.000000
+Process 103 used 7 intervals
+
+Process: 51, Computation Time: 0.010000
+Process 51 used 7 intervals
+
+Process: 30, Computation Time: 0.010000
+Process 30 used 7 intervals
+
+Process: 67, Computation Time: 0.010000
+Process 67 used 8 intervals
+
+Process: 85, Computation Time: 0.020000
+Process 85 used 8 intervals
+
+Process: 104, Computation Time: 0.010000
+Process 104 used 8 intervals
+
+Process: 52, Computation Time: 0.010000
+Process 52 used 8 intervals
+
+Process: 31, Computation Time: 0.010000
+Process 31 used 8 intervals
+
+Process: 68, Computation Time: 0.010000
+Process 68 used 8 intervals
+
+Process: 86, Computation Time: 0.010000
+Process 86 used 7 intervals
+
+Process: 105, Computation Time: 0.000000
+Process 105 used 8 intervals
+
+Process: 53, Computation Time: 0.020000
+Process 53 used 8 intervals
+
+Process: 32, Computation Time: 0.020000
+Process 32 used 8 intervals
+
+Process: 69, Computation Time: 0.000000
+Process 69 used 8 intervals
+
+Process: 87, Computation Time: 0.020000
+Process 87 used 7 intervals
+
+Process: 106, Computation Time: 0.010000
+Process 106 used 8 intervals
+
+Process: 33, Computation Time: 0.000000
+Process 33 used 8 intervals
+
+Process: 70, Computation Time: 0.010000
+Process 70 used 8 intervals
+
+Process: 88, Computation Time: 0.010000
+Process 88 used 8 intervals
+
+Process: 107, Computation Time: 0.000000
+Process 107 used 5 intervals
+
+Process: 34, Computation Time: 0.010000
+Process 34 used 8 intervals
+
+Process: 71, Computation Time: 0.000000
+Process 71 used 8 intervals
+
+Process: 89, Computation Time: 0.020000
+Process 89 used 8 intervals
+
+Process: 35, Computation Time: 0.010000
+Process 35 used 7 intervals
+
+Wall Time: 0.100000
+
+[t038:372984] 107 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t038:372984] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t038:372984] 107 more processes have sent help message help-mpi-btl-openib.txt / error in device init

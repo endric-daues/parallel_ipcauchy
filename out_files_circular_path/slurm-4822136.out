@@ -1,0 +1,221 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t113
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t113
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 48
+Interval Length: 0.130900
+Optimal Radius: 0.989499
+Process 1 is starting...
+Process 2 is starting...
+Process 3 is starting...
+Process 4 is starting...
+Process 5 is starting...
+Process 6 is starting...
+Process 7 is starting...
+Process 8 is starting...
+Process 9 is starting...
+Process 10 is starting...
+Process 11 is starting...
+Process 12 is starting...
+Process 13 is starting...
+Process 14 is starting...
+Process 15 is starting...
+Process 16 is starting...
+Process 17 is starting...
+Process 18 is starting...
+Process 19 is starting...
+Process 20 is starting...
+Process 21 is starting...
+Process 22 is starting...
+Process 23 is starting...
+Process 0 is starting...
+Process 24 is starting...
+Process 25 is starting...
+Process 26 is starting...
+Process 27 is starting...
+Process 28 is starting...
+Process 29 is starting...
+Process 30 is starting...
+Process 31 is starting...
+Process 32 is starting...
+Process 33 is starting...
+Process 34 is starting...
+Process 35 is starting...
+Process 36 is starting...
+Process 37 is starting...
+Process 38 is starting...
+Process 39 is starting...
+Process 40 is starting...
+Process 41 is starting...
+Process 42 is starting...
+Process 43 is starting...
+Process 44 is starting...
+Process 45 is starting...
+Process 46 is starting...
+Process 47 is starting...
+Process: 23, Computation Time: 0.010000
+Process 23 used 16 intervals
+
+Process: 1, Computation Time: 0.020000
+Process 1 used 16 intervals
+
+Process: 2, Computation Time: 0.010000
+Process 2 used 16 intervals
+
+Process: 3, Computation Time: 0.020000
+Process 3 used 16 intervals
+
+Process: 4, Computation Time: 0.010000
+Process 4 used 16 intervals
+
+Process: 5, Computation Time: 0.020000
+Process 5 used 16 intervals
+
+Process: 6, Computation Time: 0.030000
+Process 6 used 16 intervals
+
+Process: 7, Computation Time: 0.010000
+Process 7 used 16 intervals
+
+Process: 8, Computation Time: 0.010000
+Process 8 used 16 intervals
+
+Process: 9, Computation Time: 0.010000
+Process 9 used 16 intervals
+
+Process: 10, Computation Time: 0.030000
+Process 10 used 16 intervals
+
+Process: 11, Computation Time: 0.010000
+Process 11 used 16 intervals
+
+Process: 12, Computation Time: 0.020000
+Process 12 used 16 intervals
+
+Process: 13, Computation Time: 0.010000
+Process 13 used 16 intervals
+
+Process: 14, Computation Time: 0.010000
+Process 14 used 15 intervals
+
+Process: 15, Computation Time: 0.010000
+Process 15 used 16 intervals
+
+Process: 16, Computation Time: 0.020000
+Process 16 used 16 intervals
+
+Process: 17, Computation Time: 0.010000
+Process 17 used 16 intervals
+
+Process: 18, Computation Time: 0.010000
+Process 18 used 16 intervals
+
+Process: 19, Computation Time: 0.010000
+Process 19 used 16 intervals
+
+Process: 20, Computation Time: 0.020000
+Process 20 used 16 intervals
+
+Process: 21, Computation Time: 0.020000
+Process 21 used 16 intervals
+
+Process: 22, Computation Time: 0.010000
+Process 22 used 16 intervals
+
+Process: 0, Computation Time: 0.010000
+Process 0 used 9 intervals
+
+Total Integration Result: 544429.000000
+Total Integration Error: 0.001408
+Maximum Computation Time: 0.030000
+
+Process: 24, Computation Time: 0.010000
+Process 24 used 16 intervals
+
+Process: 25, Computation Time: 0.020000
+Process 25 used 16 intervals
+
+Process: 26, Computation Time: 0.010000
+Process 26 used 16 intervals
+
+Process: 27, Computation Time: 0.020000
+Process 27 used 16 intervals
+
+Process: 28, Computation Time: 0.020000
+Process 28 used 16 intervals
+
+Process: 29, Computation Time: 0.010000
+Process 29 used 16 intervals
+
+Process: 30, Computation Time: 0.020000
+Process 30 used 16 intervals
+
+Process: 31, Computation Time: 0.020000
+Process 31 used 16 intervals
+
+Process: 32, Computation Time: 0.020000
+Process 32 used 16 intervals
+
+Process: 33, Computation Time: 0.020000
+Process 33 used 15 intervals
+
+Process: 34, Computation Time: 0.010000
+Process 34 used 16 intervals
+
+Process: 35, Computation Time: 0.020000
+Process 35 used 16 intervals
+
+Process: 36, Computation Time: 0.010000
+Process 36 used 16 intervals
+
+Process: 37, Computation Time: 0.010000
+Process 37 used 16 intervals
+
+Process: 38, Computation Time: 0.010000
+Process 38 used 16 intervals
+
+Process: 39, Computation Time: 0.010000
+Process 39 used 16 intervals
+
+Process: 40, Computation Time: 0.010000
+Process 40 used 16 intervals
+
+Process: 41, Computation Time: 0.020000
+Process 41 used 16 intervals
+
+Process: 42, Computation Time: 0.020000
+Process 42 used 16 intervals
+
+Process: 43, Computation Time: 0.010000
+Process 43 used 16 intervals
+
+Process: 44, Computation Time: 0.010000
+Process 44 used 16 intervals
+
+Process: 45, Computation Time: 0.010000
+Process 45 used 16 intervals
+
+Process: 46, Computation Time: 0.020000
+Process 46 used 16 intervals
+
+Process: 47, Computation Time: 0.010000
+Process 47 used 9 intervals
+
+Wall Time: 0.110000
+
+[t113:264769] 47 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t113:264769] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t113:264769] 47 more processes have sent help message help-mpi-btl-openib.txt / error in device init

@@ -1,0 +1,90 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t103
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t103
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 4
+Interval Length: 1.570796
+Optimal Radius: 0.989499
+Process 0 is starting...
+Process 1 is starting...
+Process 2 is starting...
+Process 3 is starting...
+Process: 0, Computation Time: 0.100000
+Process 0 used 129 intervals
+
+Total Integration Result: 544429.000000
+Total Integration Error: 0.000005
+Maximum Computation Time: 0.180000
+
+Process: 1, Computation Time: 0.160000
+Process 1 used 199 intervals
+
+Process: 2, Computation Time: 0.180000
+Process 2 used 199 intervals
+
+Process: 3, Computation Time: 0.100000
+Process 3 used 129 intervals
+
+Wall Time: 0.200000
+
+[t103:42811] 3 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t103:42811] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t103:42811] 3 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t103
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t103
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 4
+Interval Length: 1.570796
+Optimal Radius: 0.989499
+Process 0 is starting...
+Process 1 is starting...
+Process 2 is starting...
+Process 3 is starting...
+Process: 0, Computation Time: 0.100000
+Process 0 used 129 intervals
+
+Total Integration Result: 544429.000000
+Total Integration Error: 0.000005
+Maximum Computation Time: 0.160000
+
+Process: 1, Computation Time: 0.150000
+Process 1 used 199 intervals
+
+Process: 2, Computation Time: 0.160000
+Process 2 used 199 intervals
+
+Process: 3, Computation Time: 0.110000
+Process 3 used 129 intervals
+
+Wall Time: 0.200000
+
+[t103:42982] 3 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t103:42982] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t103:42982] 3 more processes have sent help message help-mpi-btl-openib.txt / error in device init

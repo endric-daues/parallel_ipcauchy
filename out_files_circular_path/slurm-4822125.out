@@ -1,0 +1,242 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t098
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t098
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 23
+Interval Length: 0.273182
+Optimal Radius: 0.989499
+Process 0 is starting...
+Process 1 is starting...
+Process 2 is starting...
+Process 3 is starting...
+Process 4 is starting...
+Process 5 is starting...
+Process 6 is starting...
+Process 7 is starting...
+Process 8 is starting...
+Process 9 is starting...
+Process 10 is starting...
+Process 11 is starting...
+Process 12 is starting...
+Process 13 is starting...
+Process 14 is starting...
+Process 15 is starting...
+Process 16 is starting...
+Process 17 is starting...
+Process 18 is starting...
+Process 19 is starting...
+Process 20 is starting...
+Process 21 is starting...
+Process 22 is starting...
+Process: 0, Computation Time: 0.020000
+Process 0 used 18 intervals
+
+Total Integration Result: 544429.000000
+Total Integration Error: 0.005230
+Maximum Computation Time: 0.040000
+
+Process: 1, Computation Time: 0.020000
+Process 1 used 32 intervals
+
+Process: 2, Computation Time: 0.030000
+Process 2 used 32 intervals
+
+Process: 3, Computation Time: 0.020000
+Process 3 used 32 intervals
+
+Process: 4, Computation Time: 0.040000
+Process 4 used 32 intervals
+
+Process: 5, Computation Time: 0.040000
+Process 5 used 32 intervals
+
+Process: 6, Computation Time: 0.040000
+Process 6 used 32 intervals
+
+Process: 7, Computation Time: 0.030000
+Process 7 used 32 intervals
+
+Process: 8, Computation Time: 0.020000
+Process 8 used 32 intervals
+
+Process: 9, Computation Time: 0.020000
+Process 9 used 32 intervals
+
+Process: 10, Computation Time: 0.040000
+Process 10 used 32 intervals
+
+Process: 11, Computation Time: 0.030000
+Process 11 used 32 intervals
+
+Process: 12, Computation Time: 0.040000
+Process 12 used 32 intervals
+
+Process: 13, Computation Time: 0.030000
+Process 13 used 32 intervals
+
+Process: 14, Computation Time: 0.030000
+Process 14 used 32 intervals
+
+Process: 15, Computation Time: 0.030000
+Process 15 used 32 intervals
+
+Process: 16, Computation Time: 0.040000
+Process 16 used 32 intervals
+
+Process: 17, Computation Time: 0.020000
+Process 17 used 32 intervals
+
+Process: 18, Computation Time: 0.020000
+Process 18 used 32 intervals
+
+Process: 19, Computation Time: 0.030000
+Process 19 used 32 intervals
+
+Process: 20, Computation Time: 0.030000
+Process 20 used 32 intervals
+
+Process: 21, Computation Time: 0.030000
+Process 21 used 32 intervals
+
+Process: 22, Computation Time: 0.030000
+Process 22 used 18 intervals
+
+Wall Time: 0.080000
+
+[t098:84772] 22 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t098:84772] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t098:84772] 22 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              t098
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   t098
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+Number of processes (intervals) = 23
+Interval Length: 0.273182
+Optimal Radius: 0.989499
+Process 0 is starting...
+Process 1 is starting...
+Process 2 is starting...
+Process 3 is starting...
+Process 4 is starting...
+Process 5 is starting...
+Process 6 is starting...
+Process 7 is starting...
+Process 8 is starting...
+Process 9 is starting...
+Process 10 is starting...
+Process 11 is starting...
+Process 12 is starting...
+Process 13 is starting...
+Process 14 is starting...
+Process 15 is starting...
+Process 16 is starting...
+Process 17 is starting...
+Process 18 is starting...
+Process 19 is starting...
+Process 20 is starting...
+Process 21 is starting...
+Process 22 is starting...
+Process: 0, Computation Time: 0.010000
+Process 0 used 18 intervals
+
+Total Integration Result: 544429.000000
+Total Integration Error: 0.005230
+Maximum Computation Time: 0.040000
+
+Process: 1, Computation Time: 0.020000
+Process 1 used 32 intervals
+
+Process: 2, Computation Time: 0.030000
+Process 2 used 32 intervals
+
+Process: 3, Computation Time: 0.030000
+Process 3 used 32 intervals
+
+Process: 4, Computation Time: 0.030000
+Process 4 used 32 intervals
+
+Process: 5, Computation Time: 0.030000
+Process 5 used 32 intervals
+
+Process: 6, Computation Time: 0.040000
+Process 6 used 32 intervals
+
+Process: 7, Computation Time: 0.030000
+Process 7 used 32 intervals
+
+Process: 8, Computation Time: 0.030000
+Process 8 used 32 intervals
+
+Process: 9, Computation Time: 0.020000
+Process 9 used 32 intervals
+
+Process: 10, Computation Time: 0.030000
+Process 10 used 32 intervals
+
+Process: 11, Computation Time: 0.030000
+Process 11 used 32 intervals
+
+Process: 12, Computation Time: 0.030000
+Process 12 used 32 intervals
+
+Process: 13, Computation Time: 0.030000
+Process 13 used 32 intervals
+
+Process: 14, Computation Time: 0.030000
+Process 14 used 32 intervals
+
+Process: 15, Computation Time: 0.030000
+Process 15 used 32 intervals
+
+Process: 16, Computation Time: 0.030000
+Process 16 used 32 intervals
+
+Process: 17, Computation Time: 0.030000
+Process 17 used 32 intervals
+
+Process: 18, Computation Time: 0.030000
+Process 18 used 32 intervals
+
+Process: 19, Computation Time: 0.040000
+Process 19 used 32 intervals
+
+Process: 20, Computation Time: 0.040000
+Process 20 used 32 intervals
+
+Process: 21, Computation Time: 0.040000
+Process 21 used 32 intervals
+
+Process: 22, Computation Time: 0.020000
+Process 22 used 18 intervals
+
+Wall Time: 0.090000
+
+[t098:84862] 22 more processes have sent help message help-mpi-btl-openib.txt / ib port not selected
+[t098:84862] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[t098:84862] 22 more processes have sent help message help-mpi-btl-openib.txt / error in device init
